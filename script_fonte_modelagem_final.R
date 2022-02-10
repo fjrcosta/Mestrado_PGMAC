@@ -571,6 +571,7 @@ diretorio.1='<...>/dissertacao/dados/Terrenos_R_GIT.xlsx'
 
 dados_terrenos=as.data.frame(read_excel(diretorio.1))
 
+
 # Manipulação dos dados
 # Formato numérico para a variável DATA
 dados_terrenos$DATA=as.numeric(as.Date(dados_terrenos$DATA,format="%m/%d/%y", tz="UTC", origin="1970-01-01"))  
@@ -632,10 +633,11 @@ dados_treino_terrenos$VOCACAO=factor(dados_treino_terrenos$VOCACAO,
 
 # Removendo observações discrepantes sob quaisquer modelos
 
-remover=c(498,705,721,714,719,591,532,546) 
 dados_treino.san=dados_treino_terrenos
+remover=c(498,705,721,714,719,591,532,546) 
 rownames(dados_treino.san,dados_treino.san$REF) 
 dados_treino.san = dados_treino.san [!(rownames(dados_treino.san) %in% remover), ] 	
+
 dados_treino_terrenos=dados_treino.san
 
 # Removendo elementos com área superior a 50000m2
@@ -1040,9 +1042,10 @@ grid(7,14, lty=1, lwd = 0.4, col = "lightgray")
 # Salvando o resultado
 ########################################################################################################################
 
-
+save(dados_treino_terrenos, file="dados_treino_terrenos")
 save(mod_teste, file="mod_teste")
 #load("mod_teste")
+#load("dados_treino_terrenos")
 
 
 
