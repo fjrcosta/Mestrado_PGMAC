@@ -23,12 +23,7 @@ load("mod_teste")
 
 # Para que a estimação de cada modelo não seja muito demorada,
 # mod_boot_np é uma versão do mod_teste com apenas 20 iterações: method = RS())
-# qualquer outra situação, fazer mod_boot_np=mod_teste
-
-
-###########################################################################################
-# TESTE BOOTSTRAP SEMI-PARAMÉTRICO 
-###########################################################################################
+# qualquer outra situação, fazer mod_boot_sp=mod_teste
 
 mod_boot_sp=gamlss(UNIT~ ga(~ti(AT, bs='cr'), method = "REML")+
                      NATUREZA+IMPLANTACAO+RELEVO+PAVIMENTACAO+                   
