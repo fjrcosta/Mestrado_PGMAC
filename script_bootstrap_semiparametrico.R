@@ -18,7 +18,6 @@ load("mod_teste")
 
 ###########################################################################################
 # BOOTSTRAP SEMIPARAMÉTRICO 
-# (EMPÍRICO SEM PREMISSAS SOBRE A DISTRIBUIÇÃO TEÓRICA DO QUE SE DESEJA AVALIAR)
 ###########################################################################################
 
 # Para que a estimação de cada modelo não seja muito demorada,
