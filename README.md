@@ -1,3 +1,6 @@
+Material auxiliar e complementar relativo à dissertação de mestrado produzida no Programa de pós-graduação em matemárica aplicada e computacional junto à Universidade Estadual de Londrina, sob o título "GAMLSS Espaço Temporal para Engenharia de Avaliações" (2020-2022). 
+
+
 # Apêndices
 
 Material didático complementar à dissertação GAMLSS Espaço Temporal para Engenharia de Avaliações.
@@ -27,7 +30,7 @@ d) "bootstrap_semiparametrico.R": Os resíduos e os valores estimados para os pa
 e) "bootstrap_parametrico.R": a partir dos valores estimados para os parâmetros distribucionais pelo modelo proposto modelo são geradas respostas sob uma distribuição BCTo e reamostradas com reposição. O modelo original é ajustado aos novos dados; 
 
 
-# Dados
+## Dados
 
 Planilha em formato MS Excel apresentando os dados analisados (por razões de sigilo, as colunas que apresentam informações sobre o nome e telefone dos informantes foram suprimidas). 
 
