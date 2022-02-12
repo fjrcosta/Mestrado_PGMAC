@@ -1,21 +1,21 @@
 Material auxiliar e complementar relativo à dissertação de mestrado produzida no Programa de pós-graduação em matemárica aplicada e computacional junto à Universidade Estadual de Londrina, sob o título "GAMLSS Espaço Temporal para Engenharia de Avaliações" (2020-2022). 
 
 
-# Apêndices
+## Apêndices
 
 Material didático complementar à dissertação GAMLSS Espaço Temporal para Engenharia de Avaliações.
 
-# Bairros
+## Bairros
 
 Arquivos digitais com a delimitação e denominação dos bairros de Londrina.
 
 
-# BCTo
+## BCTo
 
 Uma aplicação iterativa para demonstrar a flexibilidade da distribuição teórica Box-Cox t sob diferentes valores de parâmetros (ref: https://towardsdatascience.com/).
 
 
-# Codigos_mestrado
+## Codigos_mestrado
 Códigos usados na modelagem realizada 
 
 a) "modelagem_final.R": entrada dos dados, manipulações necessárias, investigações preliminares, ajuste do modelo, diagnóstico, visualização/extração dos efeitos das covariáveis incorporadas aos preditores dos parâmetros distribucionais; 
@@ -34,20 +34,20 @@ e) "bootstrap_parametrico.R": a partir dos valores estimados para os parâmetros
 
 Planilha em formato MS Excel apresentando os dados analisados (por razões de sigilo, as colunas que apresentam informações sobre o nome e telefone dos informantes foram suprimidas). 
 
-# Modelo
+## Modelo
 
 Modelo ajustado aos dados (objeto: mod_teste).
 
-# Perímetro urbano
+## Perímetro urbano
 
 Arquivos digitais com a delimitação do perímetro urbano de Londrina.
 
 
-# Renda
+## Renda
 
 Planilhas em formato MS Excel apresentando os resultados tabulados pelo IBGE referentes à renda média familiar mensal de cada setor censitário de Londrina (2000 e 2010).
 
 
-# Setores censitários
+## Setores censitários
 
 Arquivo em formato KML (zipado) para ser aberto pelo Google Earth, com os setores censitários de todos os municípios do estado do Paraná.
