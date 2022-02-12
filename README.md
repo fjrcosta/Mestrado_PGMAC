@@ -1,3 +1,12 @@
+# Apêndices
+
+
+# Bairros
+
+
+# BCTo
+
+
 # Codigos_mestrado
 Códigos usados na modelagem realizada 
 
@@ -11,3 +20,22 @@ c) "bootstrap_n_parametrico.R": ): No bootstrap não paramétrico, os valores or
 d) "bootstrap_semiparametrico.R": Os resíduos e os valores estimados para os parâmetros distribucionais pelo modelo proposto são salvos e novas respostas são simuladas por reamostragem com reposição dos resíduos, transformando-os usando o função distribuição acumulada da distribuição normal (os resíduos são normalizados) para valores entre 0 e 1 (probabilidade) e então usando a função distribuição acumulada inversa da distribuição BCTo, sob os valores estimados dos parâmetros. O modelo original é ajustado aos novos dados;
 
 e) "bootstrap_parametrico.R": a partir dos valores estimados para os parâmetros distribucionais pelo modelo proposto modelo são geradas respostas sob uma distribuição BCTo e reamostradas com reposição. O modelo original é ajustado aos novos dados; 
+
+
+# Dados
+
+
+# Modelo
+
+
+# Perímetro urbano
+
+
+
+# Renda
+
+
+
+
+# Setores censitários
+
