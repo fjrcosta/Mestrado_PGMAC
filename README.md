@@ -1,5 +1,6 @@
 # Apêndices
 
+Material didático complementar à dissertação GAMLSS Espaço Temporal para Engenharia de Avaliações.
 
 # Bairros
 
